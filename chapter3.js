@@ -63,3 +63,18 @@ console.log(new Date().toLocaleTimeString()); //will give absolute value
 
 console.log(module.exports);
 // this is always formed here as a new object in every file...
+
+// MULTIPLE EXPORTS
+var multipleExport = require('./multipleExports');
+
+multipleExport.a();
+multipleExport.b();
+multipleExport.c();
+// multipleExport.d();
+// THIS ISNT WORKING BUT IT SHOULD ACCORDING TO THE PDF BOOK
+
+
+// USING EN BLOCK EXPORTS HERE...
+var enBlock = require('./enBlockExport/index');
+enBlock.ex1();
+enBlock.ex2();

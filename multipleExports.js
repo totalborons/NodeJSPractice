@@ -18,9 +18,10 @@ module.exports.c = function () {
     console.log("Called IMPLICIT export C");
 };
 
-exports.d = function () {
-    console.log("Called IMPLICIT export D");
-};
+// exports.d = function () {
+//     console.log("Called IMPLICIT export D");
+// };
+// THIS IS NOT WORKING FOR SOME REASON
 
 // no need to write module.exports everytime.. can directly name it as exports.functionName
 console.log("MODULE= ", module);

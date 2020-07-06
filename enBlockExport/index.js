@@ -1,0 +1,3 @@
+// use this to write down all the exports from all the files... this way you don't have to import each of them individually...
+module.exports.ex1 = require('./ex1');
+module.exports.ex2 = require('./ex2');
