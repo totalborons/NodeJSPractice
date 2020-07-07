@@ -22,6 +22,7 @@ module.exports.c = function () {
 //     console.log("Called IMPLICIT export D");
 // };
 // THIS IS NOT WORKING FOR SOME REASON
+// THOUGH THIS IS WORKING IN REACTJS FOR SOME REASON BUT NOT HERE ON THE SERVER SIDE IN NODEJS
 
 // no need to write module.exports everytime.. can directly name it as exports.functionName
 console.log("MODULE= ", module);
