@@ -1,0 +1,4 @@
+{
+    "foo": "This is the value of foo",
+    "comments": "This is just a simple way to tell how it defaults here.. not actual config file"
+}

@@ -1,0 +1,14 @@
+{
+  "name": "understanding_underscore",
+  "version": "1.0.0",
+  "description": "To see all the things underscore can do as part of a functional programming",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jay the Great",
+  "license": "ISC",
+  "dependencies": {
+    "underscore": "^1.10.2"
+  }
+}

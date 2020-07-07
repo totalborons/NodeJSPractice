@@ -1,0 +1,15 @@
+{
+  "name": "optimist_learning",
+  "version": "1.0.0",
+  "description": "To learn optimist here",
+  "main": "index.js",
+  "dependencies": {
+    "optimist": "^0.6.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
