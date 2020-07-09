@@ -4,7 +4,10 @@
   "description": "",
   "main": "chapter2.js",
   "dependencies": {
-    "colors": "^1.4.0"
+    "break": "~1.0,0",
+    "colors": "^1.4.0",
+    "connect": "^3.7.0",
+    "mime": "^2.4.6"
   },
   "devDependencies": {},
   "scripts": {
