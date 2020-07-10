@@ -49,3 +49,5 @@ console.log("Server running on 3000");
 // now the JS file is also working and other types will also work if added like a normal local file here...
 // this here is not safe as we can easily use GET to get any file off the web server and leak data here..
 // also there is no caching of the website and no error handling here both of which is basic for us
+
+// check how to do the path directory traversal attack on this node script
